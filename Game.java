@@ -5,6 +5,7 @@ class Game
 	static int score=0;
 	public static void Start_Game()
 	{
+		
 		Random random=new Random();
 		int x = random.nextInt(101);
 		Scanner sc = new Scanner(System.in);
